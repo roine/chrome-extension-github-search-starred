@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Github Starred Search",
+    "version": "1.0",
+
+    "description": "Search in your GitHub starred repositories",
+    "icons": {
+        "16": "github.png",
+        "48": "star.png",
+        "128": "star.png"
+    },
+
+    "omnibox": {
+        "keyword": "ghs"
+    },
+    "permissions": [
+        "https://api.github.com/"
+    ],
+    "background": {
+        "scripts": [
+            "script.js"
+        ]
+    }
+}
